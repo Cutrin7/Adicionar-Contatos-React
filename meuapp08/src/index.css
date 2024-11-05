@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.pai {
+  height: 600px;
+  width: 300px;
+  margin: auto;
+  display: flex;
+}
+
+.filho {
+  height: 300px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  gap: 7px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+input {
+  font-size: 15px;
+  padding: 3px;
+  border: solid black 1px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: transparent;  
+  transition: all 0.8s;
+  font-size: 15px;
+}
+
+button:hover{
+  border: solid 2px blue;
+  border-radius: 5px;
+}
